@@ -1,0 +1,16 @@
+.tr, td {
+  border: transparent;
+  height: 50px;
+  width: 50px;
+}
+table {
+  border: 2px solid #000000;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+  background-color: #d3d3d3;
+}
+p {
+  text-align: center;
+}
+h1 {
+/*  text-align: center;}*/
