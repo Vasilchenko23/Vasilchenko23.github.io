@@ -79,8 +79,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #D5D5D5;
-}
+    border-bottom: 2px solid #D5D5D5;
+     margin-right: 30px;
+     margin-left: 30px;
+  }
+
 
 .right-content-text {
     padding: 18px;
