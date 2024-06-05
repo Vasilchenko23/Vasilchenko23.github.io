@@ -116,4 +116,6 @@ li {
 .content-text a {
 color: #fff;
 }
-
+.right-content-title a {
+    color: #000000;
+}
