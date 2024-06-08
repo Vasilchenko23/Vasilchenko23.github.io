@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+/*	text-transform: uppercase;*/
+}
+
+
+.wrapper {
+	position: relative;
+	max-width: 800px;
+/*	height: 300px;*/
+	margin: 30px auto 0;
+	display: flex;
+	height: 320px;  
+	border: 1px solid #bbb;
+}
+
+.slide {
+	position: absolute;
+	top: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #bbb;
+	color: #bbb;
+	background: white;
+}
+
+.slide_l {
+	left: -20px;
+
+}
+.slide_r {
+	right: -20px;
+
+}
+
+.card {
+	width: 200px;
+	border: 1px solid #bbb;
+	position: relative;
+	padding: 10px;
+}
+
+.catalog-title {
+   border-bottom: 1px solid #bbb;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   line-height: 50px;
+
+}
+
+.catalog-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+img {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.content-description a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	text-decoration: none;
+	font-weight: bold;
+    color: #009de1;
+    text-transform: uppercase;
+
+}
+.price {
+    padding: 20px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.regular-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    font-weight: bold;
+}
+
+
+.bottom-buy,
+.bottom-road {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.bottom-buy a,
+.bottom-road a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.bottom-buy a {
+    background-color: #f0e524;
+     width: 120px;
+     height: 20px;
+     color: black;
+}
+
+.bottom-road a {
+    background-color: #cc3399;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+p {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sticker-new{
+	background: #86b022;	
+}
+
+.sticker-top{
+	background: #009de1;
+    text-align: center;
+}
+
+.sticker-new ,
+.sticker-top {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 9px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 140px;
+    top: -30px;
+    color: white;
+    border: 3px solid white;
+}
