@@ -274,6 +274,45 @@ header .container:last-child {
 	font-weight: 600;
 }
 
+.section-money {
+	padding: 40px 0;
+	background-color: var(--main-color);
+}
+
+.section-title-money {
+	margin-bottom: 40px;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: var( --color-white);
+}
+
+
+
+
+.section-text-money {
+	margin-bottom: 20px;
+	text-align: justify;
+	line-height: 140%;
+	color: var( --color-white);
+}
+.money__l {
+	
+	text-decoration: none;
+	margin-left: 10px;
+	color: var( --color-white);
+
+
+}
+
+
+
+	
+
+
+
+
+
+
 
 
 
@@ -325,6 +364,7 @@ header .container:last-child {
 /*		margin-top: 10px;*/
 	}
 
+	
 
 
 }
@@ -388,6 +428,8 @@ header .container:last-child {
 		padding: 95px 0;
 	}
 
+
+
 	.section-title {
 		font-size: 2.25rem;
 	}
@@ -401,6 +443,12 @@ header .container:last-child {
 	.fale-title  {
 		font-size: 2.25rem;
 	}
+
+	.section-money {
+		padding: 95px 0;
+	}
+
+
 
 	
 	
