@@ -479,7 +479,60 @@ margin:20px
 	
 
 
+:root {
+  --main-color: #ED4C5C;
+  --color-white: #fff;
+  --color-black: #000;
+  --main-font: "Lato", sans-serif;
+  --main-font-size: .875rem;
 }
+
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+ul {
+	list-style: none;
+}
+
+.d-none {
+	display: none;
+}
+
+.hide-desktop {
+	display: none;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.content-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+.bg-cover {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.t-center {
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+	.hide-desktop {
+		display: flex;
+	}
+}
+
 
 
 
