@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" sizes="16x16">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="icon" href="images/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png"><!--180x180-->
+     <link rel="manifest" href="favicon.wedmanifest">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/df08c10447.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Travellian</title>
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+   
+
+        <header class="header" id="home">
+            <div class="menu">
+                <div class="menu__logo">
+                    <img class="menu__vektor" src="images/header/vector.png" alt="#">
+                    <img class="menu__travellian" src="images/header/Travellian.png" alt="#">                 
+                </div>
+                <input type='checkbox' id='check' />
+                <div class="menu__item">
+                    <a class="menu__link" href="#home">Home</a>
+                    <a class="menu__link" href="#explore">Explore</a>
+                    <a class="menu__link" href="#travel">Travel</a>
+                    <a class="menu__link" href="#blog">Blog</a>
+                    <a class="menu__link" href="#pricing">Pricing</a>
+                </div>
+                <div class="menu__sign">
+                    <button class="menu__btn">Login</button>
+                    <button class="menu__btn">Sign up</button>
+                    <label for="check" class="close__menu"><i class="fas fa-times"></i></label>
+                </div>
+                <label for="check" class="open__menu"><i class="fas fa-bars"></i></label>
+            </div>
+            <div class="hero">
+                <div class="hero__title">
+                    <h1 class="hero__h1">Start your unforgettable journey with us.</h1>
+                    <div class="hero__text">The best travel for your jouney begins now</div>
+                </div>
+
+                <div class="hero__book">
+                    <div class="hero__reserve">
+                        <div class="reserve__column">
+                            <div class="reserve__title">Destination</div>
+                            <input class="reserve__input" type="text">
+                        </div>
+                        <div class="reserve__column">
+                            <div class="reserve__title">Person</div>
+                            <input class="reserve__input" type="number" min="1" max="27">
+                        </div>
+                        <div class="reserve__column">
+                            <div class="reserve__title">Check in</div>
+                            <input class="reserve__input" type="date" required>
+                        </div>
+                        <div class="reserve__column">
+                            <div class="reserve__title">Check out</div>
+                            <input class="reserve__input" type="date" required>
+                        </div>
+                    </div>
+                    <div class="hero__booknow">
+                        <div class="book__text">Book Now</div>
+                        <img src="image/header/Arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+                 <!-- Header -->
+
+        <div class="destinations" id="explore">
+
+            <div class="section">
+                <div class="section__title">
+                    <h3 class="section__h3"><a class="bordder">Popular Dest</a>inations</h3>
+                    <div class="section__text">Most popular destinations around the world, from historical places to natural wonders.</div>
+                </div>
+                
+                <div class="section__btn">
+                    <div id="destinations__left" class="section__shev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div  id="destinations__rigth" class="section__shev">
+                          <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destinations__content">
+
+                <div class="destinations__items">
+                    <img src="images/destionation/Col-block1.png" alt="#" class="destinations__img">
+                    <div class="destinations__textblock">
+                        <div class="destinations__city">Monument of Berlin</div>
+                        <img src="images/destionation/location.png" alt="#" class="destinations__location-icon">
+                        <span class="destinations__location">Berlin, Germany</span>
+                    </div>
+                </div>
+                <div class="destinations__items">
+                    <img src="images/destionation/Col-block2.png" alt="#" class="destinations__img">
+                    <div class="destinations__textblock">
+                        <div class="destinations__city">Millennium Bridge</div>
+                        <img src="images/destionation/location.png" alt="#" class="destinations__location-icon">
+                        <span class="destinations__location">London, United Kingdom</span>
+                    </div>
+                </div>
+                <div class="destinations__items">
+                    <img src="images/destionation/Col-block3.png" alt="#" class="destinations__img">
+                    <div class="destinations__textblock">
+                        <div class="destinations__city">Rialto Bridge</div>
+                        <img src="images/destionation/location.png" alt="#" class="destinations__location-icon">
+                        <span class="destinations__location">Venice, Italy</span>
+                    </div>
+                </div>
+                <div class="destinations__items">
+                    <img src="images/destionation/Col-block4.png" alt="#" class="destinations__img">
+                    <div class="destinations__textblock">
+                        <div class="destinations__city">Sea of Orange Tiles</div>
+                        <img src="images/destionation/location.png" alt="#" class="destinations__location-icon">
+                        <span class="destinations__location">Lisbon, Portugal</span>
+                    </div>
+                </div>
+                <div class="destinations__items">
+                    <img src="images/destionation/Col-block5.png" alt="#" class="destinations__img">
+                    <div class="destinations__textblock">
+                        <div class="destinations__city">Bali</div>
+                        <img src="images/destionation/location.png" alt="#" class="destinations__location-icon">
+                        <span class="destinations__location">Thailand, Asia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+             <div class="action">
+
+                <div class="section section__offer">
+                 <div class="section__title">
+                    <h3 class="section__h3"><a class="bordder">Special Of</a>fer</h3>
+                    <div class="section__text">Check out our special offer and discounts</div>
+                </div>
+                 <div class="section__btn">
+                    <div id="destinations__left" class="section__shev">
+                     <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div  id="destinations__rigth" class="section__shev">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                        
+
+            </div>
+
+            <div class="offer" id="pricing">
+
+                <div class="offer__blog">
+                    <img src="images/offer/offer1.png" alt="" class="offer__img">
+                    <div class="offer__textblog">
+                        <div class="offer__title">
+                            <h3 class="offer__city">Lisbon, Portugal</h3>
+                            <div class="offer__rating">
+                                <a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="offer__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+                        <div class="offer__details">
+                            <div class="offer__pr">
+                                <span class="offer__from">From</span>
+                                <span class="offer__price">500$</span>
+                            </div>
+                            <button class="offer__btn">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="offer__blog">
+                    <img src="images/offer/offer2.png" alt="" class="offer__img">
+                    <div class="offer__textblog">
+                        <div class="offer__title">
+                            <h3 class="offer__city">Athens, Greece</h3>
+                            <div class="offer__rating">
+                                <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="offer__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+                        <div class="offer__details">
+                            <div class="offer__pr">
+                                <span class="offer__from">From</span>
+                                <span class="offer__price">800$</span>
+                            </div>
+                            <button class="offer__btn">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="offer__blog">
+                    <img src="images/offer/offer3.png" alt="" class="offer__img">
+                    <div class="offer__textblog">
+                        <div class="offer__title">
+                            <h3 class="offer__city">Rome, Italy</h3>
+                            <div class="offer__rating">
+                              <a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a><a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a><a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a><a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a><a href="#">
+                                    <i class="fa-solid fa-star"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="offer__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+                        <div class="offer__details">
+                            <div class="offer__pr">
+                                <span class="offer__from">From</span>
+                                <span class="offer__price">750$</span>
+                            </div>
+                            <button class="offer__btn">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+        <!-- Offer -->
+
+        <div class="blog" id="blog">
+
+            <div class="section">                
+                <div class="section__title ">
+                    <h3 class="section__h3"><a class="bordder">Our B</a>log</h3>
+                    <div class="section__text">An insight the incredible experience in the world</div>
+                </div>
+            </div>
+
+            <div class="travel">
+                <img src="images/blog/travel.png" alt="#" class="travel__img">
+                <div class="travel__content">
+                    <h3 class="travel__title">Beautiful Italy
+                        Let’s travel</h3>
+                    <div class="travel__text">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is there anyone who loves or pursues.</div>
+                    <div class="travel__btn">
+                        <a class="travel__read-more" href="#">Read More</a>
+                        <img src="images/blog/header-bg.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog -->
+
+        <div class="trip" id="travel">
+
+           <div class="section">
+                <div class="section__title">
+                    <h3 class="section__h3"><a class="bordder">Trip Pla</a>nners</h3>
+                    <div class="section__text  section__text-trip">20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</div>
+                </div>
+              <div class="section__star">
+                    <div class="section__rating">
+                        View all trip plans
+                         <div class="bloc__l"></div>
+                        <div class="bloc__r"></div>
+                    </div> 
+                </div> 
+            </div>
+
+            <div class="planners">
+
+             <div class="planners__item">
+                    <img src="images/gallery/gallery5.png" alt="#" class="gallery__img">
+                    <div class="planners__content">
+                        <div class="planners__price">
+                            <div>GUIDED TOUR</div>
+                            <div>€99/Day</div>
+                        </div>
+                        <div class="planners__city">Rome City Tour</div>
+                        <div class="planners__rating">
+                            <div>                            
+                               <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                            </div>
+                            <div class="planners__date">7 Days tour</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="planners__item">
+                     <img src="images/gallery/gallery6.png" alt="#" class="gallery__img">
+                    <div class="planners__content">
+                        <div class="planners__price">
+                            <div>GUIDED TOUR</div>
+                            <div>€99/Day</div>
+                        </div>
+                        <div class="planners__city">Paris City Tour</div>
+                        <div class="planners__rating">
+                            <div>                            
+                              <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                            </div>
+                            <div class="planners__date">7 Days tour</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="planners__item">
+                    <img src="images/gallery/gallery7.png" alt="#" class="gallery__img">
+                    <div class="planners__content">
+                        <div class="planners__price">
+                            <div>GUIDED TOUR</div>
+                            <div>€99/Day</div>
+                        </div>
+                        <div class="planners__city">Barcelona City Tour</div>
+                        <div class="planners__rating">
+                            <div>                            
+                                <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                            </div>
+                            <div class="planners__date">7 Days tour</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="planners__item">
+                   <img src="images/gallery/gallery8.png" alt="#" class="gallery__img">
+                    <div class="planners__content">
+                        <div class="planners__price">
+                            <div>GUIDED TOUR</div>
+                            <div>€99/Day</div>
+                        </div>
+                        <div class="planners__city">Budapest City Tour</div>
+                        <div class="planners__rating">
+                            <div>                            
+                                <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                            </div>
+                            <div class="planners__date">7 Days tour</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+
+
+
+
+        <div class="gallery">
+
+            <div class="section">            
+                <div class="section__title section__title-gallery">
+                    <h3 class="section__h3"><a class="bordder">Destinatio</a>n Gallery</h3>
+                    <div class="section__text">Our photo gallery on trip</div>
+                </div>
+                <div class="section__btn">
+                    <div id="gallery__left" class="section__shev">
+                         <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div id="gallery__rigth" class="section__shev">
+                         <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="images/gallery/gallery1.png" alt="#" class="gallery__img">
+                <img src="images/gallery/gallery2.png" alt="#" class="gallery__img">
+                <img src="images/gallery/gallery3.png" alt="#" class="gallery__img">
+                <img src="images/gallery/gallery4.png" alt="#" class="gallery__img">
+                <img src="images/gallery/gallery1.png" alt="#" class="gallery__img">
+                <img src="images/gallery/gallery2.png" alt="#" class="gallery__img"> 
+
+            </div>
+
+
+                      <!-- Gallery -->
+
+        <div class="experiences" id="experiences">
+
+            <div class="section">            
+                <div class="section__title ">
+                    <h3 class="section__h3"><a class="bordder">Traveler’s E<a/>xperiences</h3>
+                    <div class="section__text">Here some awesome feedback from our travelers</div>
+                </div>
+            </div>
+
+
+            <div class="client">
+
+                <div class="client__items">
+                    <img src="images/exper/Avatar.png" alt="" class="client__ava">
+                    <div class="client__text">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</div>
+                    <div class="client__rating">
+                        <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                    </div>
+                    <div class="client__data">
+                        <div class="client__name">John Doe</div>
+                        <div class="client__prof">Accountant</div>
+                    </div>
+                </div>
+                <div class="client__items">
+                    <img src="images/exper/Avatar1.png" alt="" class="client__ava">
+                    <div class="client__text">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</div>
+                    <div class="client__rating">
+                        <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                    </div>
+                    <div class="client__data">
+                        <div class="client__name">John Smith</div>
+                        <div class="client__prof">Journalist, HWO News</div>
+                    </div>
+                </div>
+                <div class="client__items">
+                    <img src="images/exper/Avatar2.png" alt="" class="client__ava">
+                    <div class="client__text">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</div>
+                    <div class="client__rating">
+                        <a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a><a href="#">
+                                        <i class="fa-solid fa-star"></i>
+                                    </a>
+                    </div>
+                    <div class="client__data">
+                        <div class="client__name">Tamara Bellis</div>
+                        <div class="client__prof">Managing Director, JTH</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+               <div class="newsletter">
+                    <h2 class="newsletter__title">Our Newsletter</h2>
+                    <form id="form__email" action="post" class="newsletter__frame">
+                        <div class="newsletter__icons">
+                            <span class="fas fa-exclamation"></span>
+                        </div>
+                        <input  type="email" placeholder="Enter your email" class="newsletter__email">
+                        <div class="newsletter__btn">Subscribe</div>
+                    </form>
+                </div> 
+                    <!-- Newsletter -->
+        </div>
+
+
+         <!--Experiences -->
+
+        <footer class="footer">
+            
+            <div class="footer__logo">
+                <div class="footer__logo-item">
+                    <img class="footer__vektor" src="images/header/Vector.png" alt="#">
+                    <img class="footer__travellian" src="images/header/Travellian.png" alt="">  
+                </div>
+                 <div class="footer__logo-text">Copyright © Travellian 2020 All rights reserved</div>              
+            </div>
+            <div class="footer__info">
+                <div class="footer__text">Menu</div>
+                <div class="footer__blog">
+                    <a href="#home">Home</a>
+                    <a href="#explore">Explore</a>
+                    <a href="#travel">Travel</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#pricing">Pricing</a>
+                </div>
+            </div>
+            <div class="footer__info">
+                <div class="footer__text">Information</div>
+                <div class="footer__blog">
+                    <a href="#">Destinations</a>
+                    <a href="#">Supports</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
+            <div class="footer__info">
+                <div class="footer__text">Contact Info</div>
+                <div class="footer__blog">
+                    <div>+123 456 789</div>
+                    <div>info@travellian.com</div>
+                    <div>1245, New Yourk, USA</div>
+                </div>
+            </div>
+            <div class="footer__info">
+                <div class="footer__text">Follow us on</div>
+                <div class="footer__social">
+                    <a  href="#" target="blank">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" target="blank">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a  href="#" target="blank">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                    <a  href="#" target="blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+         <div class="go-top">
+           <i class="fa-sharp fa-solid fa-arrow-up"></i>
+        </div>
+        <!-- Footer -->
+        <script src="https://kit.fontawesome.com/df08c10447.js" crossorigin="anonymous"></script>
+        <script src="script/script.js"></script>
+
+
+
+
+    </body>
+</html>
