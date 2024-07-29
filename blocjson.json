@@ -1,28 +1,4 @@
-{
-  "trip": {
-    "planners": {
-      "planners__item": [
-        {
-          "img": {
-            "src": "images/gallery/gallery5.png",
-            "alt": "#"
-          },
-          "planners__content": {
-            "planners__price": {
-              "type": "GUIDED TOUR",
-              "price": "€99/Day"
-            },
-            "planners__city": {
-              "text": "Rome City Tour"
-            },
-            "planners__rating": {
-              "stars": 5,
-              "planners__date": {
-                "text": "7 Days tour"
-              }
-            }
-          }
-        },
+
         {
           "img": {
             "src": "images/gallery/gallery6.png",
