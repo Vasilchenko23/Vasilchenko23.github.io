@@ -94,135 +94,135 @@
 
 
 
-{
-  "experiences": {
-    "class": "experiences",
-    "section": {
-      "class": "section",
-      "section__title": {
-        "class": "section__title",
-        "h3": {
-          "class": "section__h3",
-          "a": {
-            "class": "bordder",
-            "text": "Traveler’s Experiences"
-          }
-        },
-        "section__text": {
-          "class": "section__text",
-          "text": "Here some awesome feedback from our travelers"
-        }
-      }
-    },
-    "client": {
-      "class": "client",
-      "client__items": [
-        {
-          "class": "client__items",
-          "img": {
-            "src": "images/exper/Avatar.png",
-            "alt": "",
-            "class": "client__ava"
-          },
-          "client__text": {
-            "class": "client__text",
-            "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness."
-          },
-          "client__rating": {
-            "class": "client__rating",
-            "stars": 5
-          },
-          "client__data": {
-            "client__name": {
-              "class": "client__name",
-              "text": "John Doe"
-            },
-            "client__prof": {
-              "class": "client__prof",
-              "text": "Accountant"
-            }
-          }
-        },
-        {
-          "class": "client__items",
-          "img": {
-            "src": "images/exper/Avatar1.png",
-            "alt": "",
-            "class": "client__ava"
-          },
-          "client__text": {
-            "class": "client__text",
-            "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness."
-          },
-          "client__rating": {
-            "class": "client__rating",
-            "stars": 5
-          },
-          "client__data": {
-            "client__name": {
-              "class": "client__name",
-              "text": "John Smith"
-            },
-            "client__prof": {
-              "class": "client__prof",
-              "text": "Journalist, HWO News"
-            }
-          }
-        },
-        {
-          "class": "client__items",
-          "img": {
-            "src": "images/exper/Avatar2.png",
-            "alt": "",
-            "class": "client__ava"
-          },
-          "client__text": {
-            "class": "client__text",
-            "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness."
-          },
-          "client__rating": {
-            "class": "client__rating",
-            "stars": 5
-          },
-          "client__data": {
-            "client__name": {
-              "class": "client__name",
-              "text": "Tamara Bellis"
-            },
-            "client__prof": {
-              "class": "client__prof",
-              "text": "Managing Director, JTH"
-            }
-          }
-        }
-      ]
-    },
-    "newsletter": {
-      "class": "newsletter",
-      "newsletter__title": {
-        "class": "newsletter__title",
-        "text": "Our Newsletter"
-      },
-      "form": {
-        "id": "form__email",
-        "action": "post",
-        "class": "newsletter__frame",
-        "newsletter__icons": {
-          "class": "newsletter__icons",
-          "span": {
-            "class": "fas fa-exclamation"
-          }
-        },
-        "input": {
-          "type": "email",
-          "placeholder": "Enter your email",
-          "class": "newsletter__email"
-        },
-        "newsletter__btn": {
-          "class": "newsletter__btn",
-          "text": "Subscribe"
-        }
-      }
-    }
-  }
-},
+// {
+//   "experiences": {
+//     "class": "experiences",
+//     "section": {
+//       "class": "section",
+//       "section__title": {
+//         "class": "section__title",
+//         "h3": {
+//           "class": "section__h3",
+//           "a": {
+//             "class": "bordder",
+//             "text": "Traveler’s Experiences"
+//           }
+//         },
+//         "section__text": {
+//           "class": "section__text",
+//           "text": "Here some awesome feedback from our travelers"
+//         }
+//       }
+//     },
+//     "client": {
+//       "class": "client",
+//       "client__items": [
+//         {
+//           "class": "client__items",
+//           "img": {
+//             "src": "images/exper/Avatar.png",
+//             "alt": "",
+//             "class": "client__ava"
+//           },
+//           "client__text": {
+//             "class": "client__text",
+//             "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness."
+//           },
+//           "client__rating": {
+//             "class": "client__rating",
+//             "stars": 5
+//           },
+//           "client__data": {
+//             "client__name": {
+//               "class": "client__name",
+//               "text": "John Doe"
+//             },
+//             "client__prof": {
+//               "class": "client__prof",
+//               "text": "Accountant"
+//             }
+//           }
+//         },
+//         {
+//           "class": "client__items",
+//           "img": {
+//             "src": "images/exper/Avatar1.png",
+//             "alt": "",
+//             "class": "client__ava"
+//           },
+//           "client__text": {
+//             "class": "client__text",
+//             "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness."
+//           },
+//           "client__rating": {
+//             "class": "client__rating",
+//             "stars": 5
+//           },
+//           "client__data": {
+//             "client__name": {
+//               "class": "client__name",
+//               "text": "John Smith"
+//             },
+//             "client__prof": {
+//               "class": "client__prof",
+//               "text": "Journalist, HWO News"
+//             }
+//           }
+//         },
+//         {
+//           "class": "client__items",
+//           "img": {
+//             "src": "images/exper/Avatar2.png",
+//             "alt": "",
+//             "class": "client__ava"
+//           },
+//           "client__text": {
+//             "class": "client__text",
+//             "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness."
+//           },
+//           "client__rating": {
+//             "class": "client__rating",
+//             "stars": 5
+//           },
+//           "client__data": {
+//             "client__name": {
+//               "class": "client__name",
+//               "text": "Tamara Bellis"
+//             },
+//             "client__prof": {
+//               "class": "client__prof",
+//               "text": "Managing Director, JTH"
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     "newsletter": {
+//       "class": "newsletter",
+//       "newsletter__title": {
+//         "class": "newsletter__title",
+//         "text": "Our Newsletter"
+//       },
+//       "form": {
+//         "id": "form__email",
+//         "action": "post",
+//         "class": "newsletter__frame",
+//         "newsletter__icons": {
+//           "class": "newsletter__icons",
+//           "span": {
+//             "class": "fas fa-exclamation"
+//           }
+//         },
+//         "input": {
+//           "type": "email",
+//           "placeholder": "Enter your email",
+//           "class": "newsletter__email"
+//         },
+//         "newsletter__btn": {
+//           "class": "newsletter__btn",
+//           "text": "Subscribe"
+//         }
+//       }
+//     }
+//   }
+// },
